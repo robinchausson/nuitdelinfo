@@ -1,0 +1,355 @@
+::-webkit-scrollbar {
+  display: none;
+}
+
+html {
+  scrollbar-width: none;
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+}
+body main, html main {
+  background: rgb(3, 4, 94);
+  background: linear-gradient(0deg, rgb(3, 4, 94) 0%, rgb(0, 119, 182) 25%, rgb(0, 180, 216) 50%, rgb(144, 224, 239) 75%, rgb(144, 224, 239) 81%, rgb(254, 250, 224) 82%);
+}
+body section, html section {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  z-index: 1;
+}
+body section#section1, html section#section1 {
+  position: relative;
+  z-index: 1;
+}
+body section#section1 h1, html section#section1 h1 {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  top: 17%;
+  transform: translateY(-10%);
+  font-size: 3rem;
+}
+body section#section1 #gotosection1, html section#section1 #gotosection1 {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+body section#section1 .bulle, html section#section1 .bulle {
+  position: absolute;
+  background-color: #90E0EF;
+  z-index: 99;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+body section#section1 .vague, html section#section1 .vague {
+  position: absolute;
+  top: 75%;
+  transform: translateY(-75%);
+  z-index: 5;
+}
+body section#section1 .bateau, html section#section1 .bateau {
+  position: absolute;
+  top: 88%;
+  left: 75%;
+  transform: translate(-75%, -88%) scale(0.4) rotate(-10deg);
+  z-index: 5;
+}
+body section#section1 .nuage, html section#section1 .nuage {
+  position: absolute;
+  opacity: 1;
+}
+body section#section1 .nuage.nuage1, html section#section1 .nuage.nuage1 {
+  left: 10%;
+  top: 50%;
+  transform: translate(10%, -50%) scale(1.5) rotate(5deg);
+  z-index: 6;
+}
+body section#section1 .nuage.nuage2, html section#section1 .nuage.nuage2 {
+  left: 50%;
+  top: 80%;
+  transform: translate(-50%, -80%) scale(1.5);
+  z-index: 4;
+}
+body section#section1 .nuage.nuage3, html section#section1 .nuage.nuage3 {
+  left: 80%;
+  top: 67%;
+  transform: translate(-80%, -67%) scale(1.5) rotate(-15deg);
+  z-index: 6;
+}
+body section#section2, html section#section2 {
+  z-index: 100;
+}
+body section#section2 .message, html section#section2 .message {
+  left: 50%;
+  top: 25%;
+  transform: translate(-50%, -25%);
+}
+body section#section2 .plastique, html section#section2 .plastique {
+  position: absolute;
+  z-index: 100;
+  cursor: pointer;
+}
+body section#section2 .plastique.plastique1, html section#section2 .plastique.plastique1 {
+  left: -20%;
+  top: -35%;
+  transform: scale(0.22);
+  z-index: 6;
+}
+body section#section2 .plastique.plastique2, html section#section2 .plastique.plastique2 {
+  left: -7%;
+  top: -30%;
+  transform: scale(0.22);
+  z-index: 6;
+}
+body section#section2 .plastique.plastique3, html section#section2 .plastique.plastique3 {
+  left: -15%;
+  top: -5%;
+  transform: scale(0.22);
+  z-index: 6;
+}
+body section#section2 .virus, html section#section2 .virus {
+  position: absolute;
+  z-index: 100;
+}
+body section#section2 .virus.virus1, html section#section2 .virus.virus1 {
+  left: 107%;
+  top: 180%;
+  transform: translate(-107%, -180%) scale(0.3);
+  z-index: 6;
+}
+body section#section2 .virus.virus2, html section#section2 .virus.virus2 {
+  left: 112%;
+  top: 70%;
+  transform: translate(-112%, -70%) scale(0.4);
+  z-index: 6;
+}
+body section#section2 .virus.virus3, html section#section2 .virus.virus3 {
+  left: 87%;
+  top: 90%;
+  transform: translate(-87%, -90%) scale(0.3);
+  z-index: 6;
+}
+body section#section2 .virus.virus4, html section#section2 .virus.virus4 {
+  left: 80%;
+  top: 190%;
+  transform: translate(-80%, -190%) scale(0.3);
+  z-index: 6;
+}
+body section#section3 .message, html section#section3 .message {
+  left: 65%;
+  top: 75%;
+  transform: translate(-65%, -75%);
+  width: 30rem;
+  opacity: 1;
+}
+body section#section3 .poisson, body section#section3 .vitamine, html section#section3 .poisson, html section#section3 .vitamine {
+  position: absolute;
+  z-index: 100;
+  transition: transform 0.3s;
+}
+body section#section3 .poisson, html section#section3 .poisson {
+  opacity: 0;
+}
+body section#section3 .poisson1, html section#section3 .poisson1 {
+  left: -30%;
+  top: -65%;
+  transform: translate(30%, 65%) scale(0.6);
+  z-index: 6;
+}
+body section#section3 .poisson2, html section#section3 .poisson2 {
+  opacity: 0;
+  left: 130%;
+  top: 30%;
+  transform: translate(-130%, -30%) scale(0.4);
+  z-index: 4;
+}
+body section#section3 .vitamine, html section#section3 .vitamine {
+  cursor: pointer;
+  z-index: 5;
+}
+body section#section3 .vitamine::after, html section#section3 .vitamine::after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: "";
+  width: 70%;
+  height: 70%;
+  border-radius: 50%;
+  z-index: -1;
+  transition: 0.3s;
+}
+@keyframes vitamine {
+  0% {
+    width: 70%;
+    height: 70%;
+  }
+  50% {
+    width: 90%;
+    height: 90%;
+  }
+  100% {
+    width: 70%;
+    height: 70%;
+  }
+}
+body section#section3 .vitamine1, html section#section3 .vitamine1 {
+  left: 20%;
+  top: 100%;
+  transform: translate(-20%, -100%) scale(0.2);
+  z-index: 6;
+}
+body section#section3 .vitamine1::after, html section#section3 .vitamine1::after {
+  background: rgba(255, 101, 181, 0.5);
+  animation: vitamine 2s infinite;
+}
+body section#section3 .vitamine2, html section#section3 .vitamine2 {
+  left: 30%;
+  top: 100%;
+  transform: translate(-30%, -100%) scale(0.3);
+  z-index: 6;
+}
+body section#section3 .vitamine2::after, html section#section3 .vitamine2::after {
+  background: rgba(109, 165, 255, 0.5);
+  animation: vitamine 2s 0.5s infinite;
+}
+body section#section3 .vitamine3, html section#section3 .vitamine3 {
+  left: 20%;
+  top: 135%;
+  transform: translate(-20%, -135%) scale(0.3);
+  z-index: 6;
+}
+body section#section3 .vitamine3::after, html section#section3 .vitamine3::after {
+  background: rgba(143, 195, 31, 0.5);
+  animation: vitamine 2s 1s infinite;
+}
+body section#section3 .vitamine4, html section#section3 .vitamine4 {
+  left: 30%;
+  top: 135%;
+  transform: translate(-30%, -135%) scale(0.2);
+  z-index: 6;
+}
+body section#section3 .vitamine4::after, html section#section3 .vitamine4::after {
+  background: rgba(226, 161, 255, 0.5);
+  animation: vitamine 2s 1.5s infinite;
+}
+body section#section4 .message, html section#section4 .message {
+  left: 70%;
+  top: 55%;
+  transform: translate(-70%, -55%);
+  width: 40rem;
+  opacity: 1;
+}
+body section#section5, html section#section5 {
+  background-color: rgb(3, 4, 94);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body section#section5 .video16_9, html section#section5 .video16_9 {
+  width: 45%;
+}
+body section#section5 .video9_16, html section#section5 .video9_16 {
+  width: 15%;
+}
+body section#section5 div:nth-of-type(2), html section#section5 div:nth-of-type(2) {
+  margin: 0rem 1.5rem;
+}
+body section#section5 div div, html section#section5 div div {
+  margin-top: 0.5rem;
+  font-family: "DynaPuff", system-ui;
+  color: #fff;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+body section#section5 video, html section#section5 video {
+  position: relative;
+  object-fit: cover;
+  border-radius: 16px;
+  border: 0.4rem solid #fff;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  width: 100%;
+}
+body .message, html .message {
+  position: absolute;
+  font-family: "DynaPuff", system-ui;
+  color: #061b23;
+  z-index: 100;
+  width: 34rem;
+  opacity: 0;
+  transition: 0.3s;
+  font-size: 1.3rem;
+  text-align: center;
+  transition: 0.4s;
+}
+body #plongeur, html #plongeur {
+  position: absolute;
+  z-index: 1000;
+  top: 87%;
+  left: 20%;
+  transform: translate(-20%, -87%) rotate(-20deg);
+  transition: 0.5s;
+}
+body #plongeur img, html #plongeur img {
+  width: 40rem;
+}
+body .btn, html .btn {
+  z-index: 100;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 1rem 2rem;
+  color: #fff;
+  border-radius: 50rem;
+  background-color: #00b4d8;
+  align-items: center;
+  transition: 0.3s;
+}
+body .btn ion-icon, html .btn ion-icon {
+  position: relative;
+  margin-left: 0.2rem;
+  top: 0.1rem;
+}
+body .flop, html .flop {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  z-index: 100;
+}
+body #graduations, html #graduations {
+  position: absolute;
+  top: 1rem;
+  left: 99%;
+  transform: translateX(-99%);
+  border-radius: 16px;
+  height: 490vh;
+  width: 3.5rem;
+  background: rgb(30, 96, 145);
+  background: linear-gradient(0deg, rgb(30, 96, 145) 0%, rgb(208, 0, 0) 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  z-index: 1000;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body #graduations .graduation, html #graduations .graduation {
+  text-align: center;
+  color: #fff;
+  z-index: 101;
+}
+body #graduations .bar, html #graduations .bar {
+  position: absolute;
+  top: 2.2rem;
+  left: -1rem;
+  width: 1.3rem;
+  height: 0.5rem;
+  background-color: #000;
+  border-radius: 16px;
+  z-index: 100;
+}
