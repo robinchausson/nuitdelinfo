@@ -5,13 +5,11 @@ Nous participons à la Nuit de l'Info 2024 à l'INSA Hauts-de-France (INSAHDF).
 Notre équipe (Veni Codi Vici) a décidé de relever les défis suivants :  
 - **Sujet national** : FAIRE FACE AU CHANGEMENT CLIMATIQUE : LE VRAI DU FAUX
 - **Site officiel** : https://www.nuitdelinfo.com/
-- **Défis supplémentaires** :  
-  1. Défi 1 : **L’accessibilité au cœur du développement : relevez le défi !** (ASI)
-  2. Défi 2 : **A la chasse au logo!** (Lyrecco)
-  3. Défi 3 : **Re-bienvenue au PHP** (Tetris)
-  4. Défi 4 : **Key & Cipher** (MAIF)
 
-Ce projet est conçu pour mettre en valeur nos compétences en développement web, tout en respectant les contraintes des défis.
+Nous avons réalisé le projet à 3. Il n'y a par conséquent qu'une version pour ordinateur (16:9).
+Nous avons voulu rendre le projet le plus agréable à utiliser pour l'utiliser avec des intéractions simples.
+
+Le rendu est accessible à l'adresse https://robinfo.fr/nuitdelinfo/
 
 ---
 
@@ -51,9 +49,6 @@ Projet/
 - **CSS** : Mise en forme et styles des composants.  
 - **SASS/SCSS** : Préprocesseur pour faciliter et organiser les styles CSS.  
 - **jQuery** : Dynamisme et manipulation DOM simplifiés.  
-
-### Back-end  
-- **PHP** : Gestion des requêtes serveur et des interactions avec la base de données.  
 
 ## License
 Ce projet est distribué sous la licence **GPL** (General Public License). Vous êtes libre de :  

@@ -8,7 +8,7 @@
         <div>Short #2</div>
     </div>
     <div class="video16_9">
-        <video src="assets/video/podcast.mp4" controls="true" ></video>
+        <video src="assets/video/podcast.mp4" controls="true" poster="assets/img/poster.jpg"></video>
         <div>Podcast</div>
     </div>
 </section>
